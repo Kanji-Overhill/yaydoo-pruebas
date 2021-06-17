@@ -1,0 +1,16 @@
+footer{
+    background: rgb(0,75,87);
+    color: #fff;
+}
+footer a{
+    color: #fff!important;
+}
+.main-navigation ul{
+    justify-content: flex-end;
+}
+.main-navigation li{
+    margin-left: 1rem;
+}
+.main-navigation li a{
+    color: black;
+}

@@ -1,0 +1,236 @@
+/*
+    =========================================================================================
+    >>>  ABOUT US PAGE STYLES
+    =========================================================================================
+    ABOUT US page classes 
+    > Add here all the styles needed for the template/page-about-us.php
+    
+*/
+.about-us-1{
+    background-image: url(../../resources/about-us.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-us-1 .row{
+    min-height: 70vh;
+}
+.about-us-1 h1{
+    color: #fff;
+}
+.about-us-2{
+    background: #15464b;
+    padding: 120px 0;
+    color: #fff;
+    text-align: center;
+}
+.about-us-2 h2{
+    text-transform: uppercase;
+}
+.about-us-2 p{
+      margin-bottom: 0;
+      color: #fff;
+}
+.about-us-3{
+    background-image: url(../../resources/team.png);
+    background-position-y: 105%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    padding: 70px 0;
+    background-color: #f5f5f5  
+}
+.about-us-3 h2{
+    text-transform: uppercase;
+    color: #417477;
+    margin-bottom: 0;
+}
+.about-us-3 .content-member{
+    text-align: center;
+}
+.about-us-3 .content-member img{
+    margin-bottom: 20px;
+    transition: all .3s;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    max-height: 127px;
+}
+.about-us-3 .content-member h4{
+    padding: 0 0 0 10px;
+    font-weight: bold;
+    color: #417477;
+    font-size: 16px;
+}
+.about-us-3 .content-member p{
+    padding: 0 0 0 10px;
+    font-weight: bold;
+    color: #707070;
+    font-size: 14px;
+}
+.about-us-3 .col-md-4:hover img{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+.home-2{
+    padding-top: 90px;
+}
+.home-2 .container{
+    padding-bottom: 90px;
+    border-bottom: 1px solid #cacaca
+}
+.home-2 h2{
+    color: #417477;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.home-2 .content-sec-2{
+    position: relative;
+    min-height: 300px;
+    background-size: cover;
+    padding: 40px;
+    margin-bottom: 20px;
+    background-position: center;
+}
+.home-2 .content-sec-2 p, .home-2 .content-sec-2 img{
+    position: relative;
+    z-index: 2;
+}
+.home-2 .col-md-4 .content-sec-2 p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+}
+.home-2 .overlay{
+    background-color: rgba(1, 73, 80, 0.7);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: all .3s;
+    height: 100%;
+}
+.home-2 a:hover .overlay{
+    background-color: rgba(0, 45, 49, 0.9);
+}
+.home-2 .icon-home img{
+    max-width: 60px;
+    margin-bottom: 10px;
+}
+.home-2 .more-home{
+    position: absolute;
+    width: 30px;
+    bottom: 20px;
+    left: calc(50% - 15px);
+}
+.home-2 .col-md-4 p{
+    color: #707070;
+    font-size: 14px;
+}
+.home-2 .p-propertie{
+    padding: 0 0 40px 10px;
+}
+.home-2 .col-11 .border-yellow{
+    color: #417477;
+    font-weight: bold;
+}
+.home-4{
+    padding: 90px 0;
+}
+.home-4 h2{
+    color: #417477;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.home-4 .col-md-10.title-home{
+    margin-bottom: 0;
+    box-shadow: none;
+    padding: 0;
+    padding-bottom: 20px;
+}
+.home-4 .col-10{
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.06);
+-moz-box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.06);
+box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.06);
+}
+.home-4 .col-10{
+    padding: 20px 40px 5px 40px;
+}
+.home-4 .col-md-2{
+    text-align: right;
+}
+.home-4 .col-md-2 img{
+    width: 100%;
+    max-width: 50px;
+}
+.home-4 .col-md-2.text-center img{
+    width: 100%;
+    max-width: inherit;
+    margin-bottom: 10px;
+}
+.home-5{
+    background-color: #417477;
+}
+.home-5 .col-md-6 img{
+    max-width: 250px;
+}
+.home-5 .col-md-6 p{
+    color: #fff;
+    font-weight: normal;
+    font-size: 26px;
+}
+.home-5 .col-md-6 a{
+    color: #f4df4f;
+    font-weight: bold;
+}
+.home-5 .col-md-6 a:hover{
+    color: #f4df4f!important;
+}
+
+.home-4 .col-10.block-b:hover{
+    background: #417477;
+}
+.home-4 .col-10.block-b:hover .title-testimony, .home-4 .col-10.block-b:hover p{
+    color: #FFF
+}
+.home-4 .col-md-2 a.arrow-white{
+    display: none;
+}
+.home-4 .col-md-2 a.arrow-yellow{
+    display: block
+}
+.home-4 .col-10.block-b:hover a.arrow-white{
+    display: block;
+}
+.home-4 .col-10.block-b:hover a.arrow-yellow{
+    display: none;
+}
+.about-us-4 .container .row .col-6{
+    margin-bottom: 2rem;
+}
+@media (max-width: 500px){
+    .home-2 .col-md-4 .content-sec-2 p{
+        font-size: 28px!important;
+    }
+    .about-us-1 .row{
+        min-height: 40vh;
+    }
+    .home-2 .col-11 .border-yellow {
+        margin-top: 60px;
+        display: inline-block;
+    }
+    .home-4 .col-10 {
+        padding: 20px 20px 20px 20px;
+    }
+    .title-testimony {
+        color: #417477;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .home-4 .col-md-2 {
+        text-align: right;
+    }
+    .site-footer .col-md-10 p{
+        text-align: center;
+    }
+}

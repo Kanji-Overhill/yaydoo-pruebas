@@ -1,0 +1,381 @@
+/*
+    =========================================================================================
+    >>>  PROPERTIES CSS
+    =========================================================================================
+    The properties CSS files
+    > Add here all the style needed for the template/properties.php
+    
+*/
+.acf-map {
+    width: 100%;
+    height: 100%;
+    position: absolute!important;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    pointer-events: none;
+    transition: all .3s;
+}
+.container-maps{
+    position: relative;
+    height: 500px;
+}
+.opacity-map{
+    opacity: 1;
+    pointer-events: all;
+}
+.glide__bullets {
+    position: absolute;
+    z-index: 2;
+    bottom: -2em!important;
+    left: 50%;
+    display: inline-flex;
+    list-style: none;
+    transform: translateX(-50%);
+}
+.menu-map{
+    padding: 20px 0;
+    text-align: center;
+}
+.menu-map a{
+    color: #417477;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 12px;
+}
+.menu-map .menu-map-link{
+    border-right: 1px solid #d8d8d8;
+}
+.menu-map a:hover{
+    color: #417477;
+}
+.menu-map .menu-map-link:last-child{
+    border-right: 0px;
+}
+.menu-map a img{
+    margin-right: 10px;
+    width: 30px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.menu-map a span{
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 1
+}
+.menu-map .row .menu-map-link:last-child a img{
+    width: 35px;
+}
+.properties-1{
+    background-image: url(../../resources/properties.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.properties-1 .row{
+    min-height: 70vh;
+}
+.properties-1 h1{
+    color: #fff;
+}
+.properties-2{
+    background: #417477;
+}
+.properties-2 a{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    padding: 0 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    display: inline-block;
+    transition: all .3s;
+    border-bottom: 2px solid #417477;
+}
+.properties-2 a:hover{
+    border-bottom: 2px solid #FFF;
+    background-color: #2e5355;
+    color: #fff!important;
+}
+.properties-2 a.active-category{
+    border-bottom: 2px solid #FFF;
+    background-color: #2e5355;
+    color: #fff!important;
+}
+.properties-3{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.properties-3 h2{
+    font-weight: 400;
+    color: #417477;
+    font-size: 24px;
+}
+.properties-3 p{
+    color: #707070;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.properties-4{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: #f5f5f5;
+}
+.properties-4 h2{
+    text-transform: uppercase;
+    color: #417477;
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 60px;
+}
+.properties-4 .col-md-4{
+    margin-bottom: 20px;
+}
+.properties-4 .col-md-4 .propertie-all{
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+    padding-bottom: 60px;
+    transition: all .3s;
+}
+.properties-4 .col-md-4 .propertie-all:hover{
+    transform: translateY(-10px);
+}
+.properties-4 .col-md-4 h3{
+    color: #417477;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+.properties-4 .col-md-4 h3 img{
+    max-width: 35px;
+    vertical-align: bottom;
+    margin-right: 15px;
+}
+.properties-4 .col-md-4 .content-image{
+    position: relative;
+    margin-bottom: 30px;
+}
+.properties-4 .col-md-4 .content-image .spaces-avaiable{
+    padding: 5px 5px 5px 25px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10px;
+    background: #fff;
+    right: 10px;
+}
+.properties-4 .col-md-4 .content-image .spaces-avaiable p{
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.properties-4 .col-md-4 .content-image .spaces-avaiable p:after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #00cc0e;
+    position: absolute;
+    left: 8px;
+    top: 9px;
+}
+
+
+.properties-4 .col-md-4 .content-image .spaces-avaiable-red{
+    padding: 5px 5px 5px 25px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10px;
+    background: #fff;
+    right: 10px;
+}
+.properties-4 .col-md-4 .content-image .spaces-avaiable-red p{
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.properties-4 .col-md-4 .content-image .spaces-avaiable-red p:after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #cc0000;
+    position: absolute;
+    left: 8px;
+    top: 9px;
+}
+
+
+.properties-4 .col-md-4 .info-properties{
+    padding: 20px;
+}
+.properties-4 .col-md-4 .info-properties .title-propertie{
+    margin-bottom: 20px;
+}
+.properties-4 .col-md-4 .info-properties .title-propertie p{
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.properties-4 .col-md-4 .info-properties .title-propertie p b{
+    color: #417477;
+    display: block;
+    font-weight: bold;s
+}
+.properties-4 .col-md-4 .content-properties span{
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.properties-4 .col-md-4 .content-properties span:first-child{
+    margin-bottom: 0;
+}
+.properties-4 .col-md-4 .content-properties{
+    position: relative;
+}
+.properties-4 .col-md-4 .content-properties p{
+    font-size: 12px;
+    color: #707070;
+}
+.properties-4 .col-md-4 .content-properties b{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 20px;
+}
+.properties-4 .col-md-4 .propertie-contact{
+    display: block;
+    width: 50%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: #417477;
+    position: absolute;
+    font-size: 12px;
+    text-decoration-color: #f4df4f!important;
+}
+.properties-4 .col-md-4 .propertie-contact a{
+    color: #417477;
+}
+
+.properties-4 .col-md-4 .propertie-view{
+    display: block;
+    width: 50%;
+    padding-top: 15px;
+    transition: all .3s;
+    padding-bottom: 15px;
+    right: 0;
+    bottom: 0;
+    background: #417477;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+}
+.properties-4 .col-md-4 .propertie-view:hover{
+    background: #333333;
+    color: #fff;
+}
+.properties-4 .col-md-4 .propertie-view.disabled{
+    background: #9aacad;
+    color: #fff!important;
+}
+.home-5{
+    background-color: #417477;
+}
+.home-5 .col-md-6 img{
+    max-width: 250px;
+}
+.home-5 .col-md-6 p{
+    color: #fff;
+    font-weight: normal;
+    font-size: 26px;
+}
+.home-5 .col-md-6 a{
+    color: #f4df4f;
+    font-weight: bold;
+}
+.home-5 .col-md-6 a:hover{
+    color: #f4df4f!important;
+}
+#link_menu_properties{
+    padding: 0 20px;
+}
+#link_menu_properties a{
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold!important;
+    padding-left: 0;
+    padding-right: 0;
+}
+#link_menu_properties a:before{
+    content: '';
+    height: 3px;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: 1rem;
+}
+#link_menu_properties a:after{
+    content: '';
+    background-image: url(../../resources/up-arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: 31px;
+    transition: all .3s;
+}
+#link_menu_properties a.arrow-down:after{
+    transform: rotate(180deg);
+}
+.properties-2 #link_menu_properties a:hover {
+    border-bottom: 2px solid transparent;
+    background-color: inherit;
+    color: #fff!important;
+}
+.maps-all-content{
+    border: 1px solid #d8d8d8;
+}
+@media (max-width: 575px){
+    .properties-1 .row{
+        min-height: 40vh
+    }
+    .container-maps{
+        display: none;
+    }
+    .menu-map{
+        display: none
+    }
+    .h1, h1 {
+        font-size: 2.2rem;
+    }
+     #menu-properties a{
+        border-bottom: 1px solid #2e5355;
+     }
+    .site-footer .col-md-10 p{
+        text-align: center;
+    }
+    #menu-properties{
+        background:  #2e5355;
+    }
+    #menu-properties a{
+        width: 100%;
+        padding-top: 20px;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+}
